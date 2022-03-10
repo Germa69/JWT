@@ -1,0 +1,29 @@
+GET http://localhost:5000/books
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNpbiBEYW5nIiwiaWF0IjoxNjQ2ODk2NDUyLCJleHAiOjE2NDY4OTY0ODJ9.499ul2CuPu75w7CkSBM9ecD6iHKKIFuGs0HsQTbIMZk
+
+###
+
+POST http://localhost:5500/login
+Content-Type: application/json
+
+{
+	"username": "Sin Dang"
+}
+
+
+###
+POST http://localhost:5500/refreshToken
+Content-Type: application/json
+
+{
+	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNpbiBEYW5nIiwiaWF0IjoxNjQ2ODk2NDExfQ.ADC4qQzBHiqGxiFPRtziMXqQRz4jE1La5jWkzvDvbI0"
+}
+
+
+### 
+POST http://localhost:5500/logout
+Content-Type: application/json
+
+{
+	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNpbiBEYW5nIiwiaWF0IjoxNjQ2ODk2NDExfQ.ADC4qQzBHiqGxiFPRtziMXqQRz4jE1La5jWkzvDvbI0"
+}
