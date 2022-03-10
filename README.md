@@ -7,3 +7,13 @@ Library
 
 Info
 - dotenv: Lưu trữ thông tin phía môi trường
+
+RUN
+
+## `npm run startServer`
+
+## `npm run startAuthServer`
+
+Extension 
+
+## `REST Client`
